@@ -30,7 +30,7 @@ gem 'spring',        group: :development
 
 
 
-gem 'sqlite3', :group => [:development, :test]
+gem 'sqlite3','~> 1.3.10', :group => [:development, :test]
 group :production do
   gem 'thin'
   gem 'pg'
