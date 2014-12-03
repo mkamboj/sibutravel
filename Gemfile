@@ -30,11 +30,11 @@ gem 'spring',        group: :development
 
 
 
- gem 'pg',  group: :production
-
-
-gem 'thin'
-gem 'therubyracer'
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
