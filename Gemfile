@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 
-gem 'sqlite3', group: :development
+
 
  gem 'pg',  group: :production
 
