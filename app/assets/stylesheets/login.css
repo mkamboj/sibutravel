@@ -1,0 +1,106 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/********************
+  Login Page Elements
+*******************/
+
+#loginFrame{ 
+  width:380px;
+  margin:0 auto;
+}
+#loginFrame .logo {
+  width:221px;
+  /*margin:20px auto;
+  /*margin:0px -248px auto;*/
+  margin:3px  110px auto;
+  display:block;
+}
+#loginFrame .loginForm {
+  padding: 30px 40px 10px;
+  width:296px;
+  background:#f6f6f6;
+  border:1px solid #D1D1D1;
+  /*border-bottom:0 none; */
+  position:relative;
+}
+#loginFrame .loginForm .loginTitle {
+  display:block;
+  margin:0 0 30px;
+  padding: 7px 0 5px 36px;
+  font-size:18px;
+  background:image-url('icon_lock.png') no-repeat;
+}
+.loginForm dl { 
+  margin:0 0 15px;
+}
+.loginForm dl dt { 
+  display: block; 
+  margin:0 0 8px;
+  font-weight:bold;
+}
+.loginForm dl dd input { 
+  display: block; 
+  margin: 5px 0 8px;
+  width: 93%;
+}
+.loginForm .formLbl {
+  display:block;
+  margin:10px 0 15px;
+  text-align:center;
+  font-size:11px;
+  position:relative;
+}
+.loginForm .formLbl .check {
+  position:relative;
+  top:3px;
+}
+.loginForm .formLbl .btnWidth{ 
+  margin-bottom: 5px;
+  width: 70px;
+}
+.loginForm .formLbl a { color:#6c6c6c; }
+.loginForm .formLbl a:hover{
+  color:#000;
+}
+
+.loginForm .formLbl .rememberMe{  
+  margin:0 auto 20px;
+  width:100px;
+}
+.loginForm .formLbl .rememberMe:hover,
+.loginForm .formLbl .rememberMe input:hover{
+  cursor:pointer;
+  color:#000;
+}
+.loginForm .formLbl .rememberMe .check,
+.loginForm .formLbl .rememberMe span{
+  float:left;
+}
+.loginForm .formLbl .rememberMe .check{
+  padding:0;
+  border:none;
+}
+.loginForm .formLbl .rememberMe span{
+  margin:7px 0 0 5px;
+}
+.loginForm .formLbl a:hover{
+  text-decoration:underline;
+}
+.trail_link { position:absolute; bottom:-32px; left:110px;}
+.trail_link a {text-align:center; color:#FF0000; font-weight:bold; font-size:13px}
+.companyLogo { height:75px; text-align:right;  width: 190px; position: absolute;  right: 10px; top: 1px; }
+.btn_blue {padding:7px 10px 6px; color:#fff; font-size:12px; font-weight:bold; text-transform:uppercase; cursor:pointer; border:none; background:#800000!important; overflow:visible; border:0px;}
